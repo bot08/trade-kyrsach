@@ -24,7 +24,7 @@ function App() {
         <div className='py-4 px-2 bg-gray-100 overflow-x-scroll whitespace-nowrap rounded-xl'>
           { data }
         </div>
-        <label className="block text-black text-lg font-normal my-2">
+        <label className="block my-2 text-black text-lg font-normal">
           Введіть період:
           <input
             type="number" min={2} max={9999} value={period} onChange={handlePeriodChange}

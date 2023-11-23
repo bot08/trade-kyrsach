@@ -4,7 +4,7 @@ function generateRandomData(length) {
   for (let i = 0; i < length; i++) {
     const priceChange = Math.random() * 10 - 5;
     price += priceChange;
-    data.push(price);
+    data.push(parseFloat(price.toFixed(2)));
   }
   return data;
 }

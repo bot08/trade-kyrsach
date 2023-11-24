@@ -1,4 +1,3 @@
-// Функція для надання рекомендації
 function makeRecommendation(sma, ema, rsi) {
   const lastSMA = sma[sma.length - 1];
   const lastEMA = ema[ema.length - 1];
@@ -12,6 +11,5 @@ function makeRecommendation(sma, ema, rsi) {
     return "Зберігати поточну позицію";
   }
 }
-
 
 export { makeRecommendation }

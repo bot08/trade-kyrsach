@@ -1,4 +1,3 @@
-// Функція для обчислення простої скользячої середньої (SMA)
 function calculateSMA(data, period) {
   const smaValues = [];
   for (let i = period - 1; i < data.length; i++) {
@@ -8,7 +7,6 @@ function calculateSMA(data, period) {
   return smaValues;
 }
 
-// Функція для обчислення експоненціальної скользячої середньої (EMA)
 function calculateEMA(data, period) {
   const emaValues = [data[0]];
 
@@ -22,7 +20,6 @@ function calculateEMA(data, period) {
   return emaValues;
 }
 
-// Функція для обчислення індикатора відносної сили (RSI)
 function calculateRSI(data, period) {
   const rsiValues = [];
 

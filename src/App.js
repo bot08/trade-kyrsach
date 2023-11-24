@@ -49,7 +49,7 @@ function App() {
         <label className="block my-2 text-black text-lg font-normal">
           Введіть період:
           <input
-            type="number" min={2} max={9999} value={period} onChange={handlePeriodChange}
+            type="number" inputmode="numeric" pattern="[0-9]*" min={2} max={9999} value={period} onChange={handlePeriodChange}
             className="px-3 py-1 ml-2 rounded-md border border-white focus:outline-none focus:ring focus:border-indigo-600"
           />
         </label>
